@@ -1,0 +1,17 @@
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\KdySeToStalo.csprojAssemblyReference.cache
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\CoSeStaloDrivGameScreen.xaml.g.cs
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\GameMenuScreen.xaml.g.cs
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\KdySeToStaloGameScreen.xaml.g.cs
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\KdySeToStalo.AssemblyInfoInputs.cache
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\KdySeToStalo.AssemblyInfo.cs
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\KdySeToStalo.dll
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\ref\KdySeToStalo.dll
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\KdySeToStalo.pdb
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Debug\netstandard2.0\KdySeToStalo.deps.json
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Debug\netstandard2.0\KdySeToStalo.dll
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Debug\netstandard2.0\ref\KdySeToStalo.dll
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Debug\netstandard2.0\KdySeToStalo.pdb
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\css\dada.css.g.cs
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\XamlC.stamp

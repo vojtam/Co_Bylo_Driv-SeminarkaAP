@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KdySeToStalo.CoSeStaloDrivGameScreen"
+             NavigationPage.HasNavigationBar="False"
+             Visual="Material">
+    <ContentPage.Resources>
+        <StyleSheet Source="css/dada.css">
+
+        </StyleSheet>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <FlexLayout x:Name="container">
+
+                <Label 
+                    x:Name="Label_Header_Main"
+                    StyleClass="header"
+                    Text="Která událost se stala dřív?"
+                    
+                    
+                       >
+
+                </Label>
+                <Button
+                    x:Name="Event1Btn"
+                    Text="EV1"
+                    StyleClass="BTN-game"
+                    Clicked="Event1Btn_Clicked"
+                    
+                    
+                    ></Button>
+                <Label 
+                    x:Name="label_wiki1"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="LightBlue"
+                    TextDecorations="Underline"
+                    FontSize="16"
+                    >
+                    
+
+                </Label>
+
+
+
+                <Button
+                    x:Name="Event2Btn"
+                    Text="EV2"
+                    StyleClass="BTN-game"
+                    Clicked="Event2Btn_Clicked"
+                    ></Button>
+                <Label
+                    x:Name="label_wiki2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="LightBlue"
+                    FontSize="16"
+                    TextDecorations="Underline"
+               
+               ></Label>
+                <Button 
+                    x:Name="next_btn"
+                    Text="Další"
+                    Clicked="Next_button_Clicked"
+                    FontSize="20"
+                    StyleClass="BTN-menu"
+                     />
+            </FlexLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

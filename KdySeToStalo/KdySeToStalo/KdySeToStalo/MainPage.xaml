@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KdySeToStalo.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             Visual="Material">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="css/dada.css">
+
+        </StyleSheet>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+
+            <FlexLayout x:Name="container">
+
+
+                <StackLayout>
+                    <Label 
+                            x:Name="Label_Header_Main"
+                            StyleClass="header"
+                            Text="Kdy Se To Stalo?">
+
+
+                    </Label>
+                    <Label
+                            x:Name="Label_Header_Secondary"
+                            StyleClass="header_secondary"
+                            Text="Hra, která procvičí Vaše znalosti dějepisu">
+                    </Label>
+                </StackLayout>
+
+
+                <Button
+                             x:Name="MainGameStartBtn"
+                             Text="Nová hra"
+                             StyleClass="BTN-menu"
+                             Clicked="MainGameStartBtn_ClickedAsync"
+                         ></Button>
+            </FlexLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
