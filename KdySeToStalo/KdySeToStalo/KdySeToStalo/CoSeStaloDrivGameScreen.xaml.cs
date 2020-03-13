@@ -46,13 +46,13 @@ namespace KdySeToStalo
             /*
              vytvoří nový label, který si vezme adresu z příslušného objektu a vytvoří link
              */
-            var adresa = udalosti_list[random_index1].Wiki;
+            var adresa = udalosti_list[random_index1].Wiki; // vezme adresu na wiki a uloží ji do proměnné
             label_wiki1.FontSize = 16;
 
 
             var tapGestureRecognizer = new TapGestureRecognizer();
 
-            tapGestureRecognizer.Tapped += (s, e) => {
+            tapGestureRecognizer.Tapped += (s, e) => {                  // zajistí, že se na Label dá kliknout a zobrazit odkaz
                 Launcher.OpenAsync(new Uri((adresa as String)));
             };
             label_wiki1.GestureRecognizers.Add(tapGestureRecognizer);
@@ -64,11 +64,12 @@ namespace KdySeToStalo
             /*
              vytvoří nový label, který si vezme adresu z příslušného objektu a vytvoří link
              */
-            var adresa = udalosti_list[random_index2].Wiki;
+            var adresa = udalosti_list[random_index2].Wiki; // vezme adresu na wiki a uloží ji do proměnné
+          
             label_wiki2.FontSize = 16;
 
             var tapGestureRecognizer = new TapGestureRecognizer();
-            tapGestureRecognizer.Tapped += (s, e) => {
+            tapGestureRecognizer.Tapped += (s, e) => {              // zajistí, že se na Label dá kliknout a zobrazit odkaz
                 Launcher.OpenAsync(new Uri((adresa as String)));
             };
             label_wiki2.GestureRecognizers.Add(tapGestureRecognizer);

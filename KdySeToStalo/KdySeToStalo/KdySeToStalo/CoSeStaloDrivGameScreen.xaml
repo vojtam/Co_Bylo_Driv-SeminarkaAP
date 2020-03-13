@@ -19,9 +19,7 @@
                 <Label 
                     x:Name="Label_Header_Main"
                     StyleClass="header"
-                    Text="Která událost se stala dřív?"
-                    
-                    
+                    Text="Která událost se stala dřív?"          
                        >
 
                 </Label>
@@ -29,10 +27,9 @@
                     x:Name="Event1Btn"
                     Text="EV1"
                     StyleClass="BTN-game"
-                    Clicked="Event1Btn_Clicked"
-                    
-                    
+                    Clicked="Event1Btn_Clicked"                   
                     ></Button>
+
                 <Label 
                     x:Name="label_wiki1"
                     HorizontalOptions="Center"
@@ -41,11 +38,7 @@
                     TextDecorations="Underline"
                     FontSize="16"
                     >
-                    
-
                 </Label>
-
-
 
                 <Button
                     x:Name="Event2Btn"

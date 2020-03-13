@@ -40,10 +40,10 @@ namespace KdySeToStalo
             OdpovedBtn.BackgroundColor = Color.FromHex("#b4654a");
             EntryRok.Text = "";
         }
-        public void TestGame()
+        public void TestGame() // hlavní metoda
         {
             pridej_udalosti();
-            random_index = randy.Next(udalosti_list.ToArray().Length);
+            random_index = randy.Next(udalosti_list.ToArray().Length); // vybere náhodný index události z listu objektů
             UdálostBtn.Text = udalosti_list[random_index].Název;
             udalost_rok = udalosti_list[random_index].Datum;
             SpravnaOdpovedLabel.Opacity = 0;
@@ -87,7 +87,7 @@ namespace KdySeToStalo
             }
 
         }
-        protected override void OnAppearing()
+        protected override void OnAppearing() // zajistí, aby se po spuštění aktivity automaticky spustila klávesnice a dalo se psát do pole
         {
             base.OnAppearing();
             Device.BeginInvokeOnMainThread(async () =>

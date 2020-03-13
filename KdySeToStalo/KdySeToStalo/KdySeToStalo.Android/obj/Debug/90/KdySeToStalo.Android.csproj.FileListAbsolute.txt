@@ -493,3 +493,4 @@ C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Andro
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialSliderRenderer.java
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialStepperRenderer.java
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialTimePickerRenderer.java
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
