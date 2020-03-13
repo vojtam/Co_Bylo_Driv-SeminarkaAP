@@ -13,5 +13,5 @@ C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\D
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Debug\netstandard2.0\KdySeToStalo.dll
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Debug\netstandard2.0\ref\KdySeToStalo.dll
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Debug\netstandard2.0\KdySeToStalo.pdb
-C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\css\dada.css.g.cs
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\obj\Debug\netstandard2.0\css\styly.css.g.cs

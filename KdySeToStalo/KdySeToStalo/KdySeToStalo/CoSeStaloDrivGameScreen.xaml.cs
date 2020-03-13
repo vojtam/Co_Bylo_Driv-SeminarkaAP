@@ -91,21 +91,7 @@ namespace KdySeToStalo
             }
             #endregion
         }
-        //public void pridej_udalosti()
-        //{
-        //    udalosti_list.Add(new Události("Bitva u Hastings", 1066, 1, "https://cs.wikipedia.org/wiki/Bitva_u_Hastingsu"));
-        //    udalosti_list.Add(new Události("Upalení Jana Husa", 1415, 2, "https://cs.wikipedia.org/wiki/Jan_Hus"));
-        //    udalosti_list.Add(new Události("Začátek WWII", 1939, 3, "https://cs.wikipedia.org/wiki/Druh%C3%A1_sv%C4%9Btov%C3%A1_v%C3%A1lka"));
-        //    udalosti_list.Add(new Události("Vznik Francké říše", 486, 4, "https://cs.wikipedia.org/wiki/Fransk%C3%A1_%C5%99%C3%AD%C5%A1e"));
-        //    udalosti_list.Add(new Události("Rozdělení Římské říše", 330, 5, "https://cs.wikipedia.org/wiki/%C5%98%C3%ADmsk%C3%A1_%C5%99%C3%AD%C5%A1e#Rozd%C4%9Blen%C3%AD_%C5%99%C3%AD%C5%A1e_a_nastolen%C3%AD_k%C5%99es%C5%A5anstv%C3%AD"));
-        //    udalosti_list.Add(new Události("Vyplenění Říma Vandaly", 455, 6, "https://cs.wikipedia.org/wiki/Vyplen%C4%9Bn%C3%AD_%C5%98%C3%ADma_(455)"));
-        //    udalosti_list.Add(new Události("Zánik Západořímské říše", 476, 7, "https://cs.wikipedia.org/wiki/P%C3%A1d_Z%C3%A1pado%C5%99%C3%ADmsk%C3%A9_%C5%99%C3%AD%C5%A1e"));
-        //    udalosti_list.Add(new Události("Milánský edikt", 313, 8, "https://cs.wikipedia.org/wiki/Edikt_mil%C3%A1nsk%C3%BD"));
-        //    udalosti_list.Add(new Události("Velké schizma", 1054, 9, "https://cs.wikipedia.org/wiki/Velk%C3%A9_schizma"));
-        //    udalosti_list.Add(new Události("První křížová výprava", 1095, 10, "https://cs.wikipedia.org/wiki/Prvn%C3%AD_k%C5%99%C3%AD%C5%BEov%C3%A1_v%C3%BDprava"));
-        //    udalosti_list.Add(new Události("Zánik Kartága", -146, 11, "https://cs.wikipedia.org/wiki/Kart%C3%A1go"));
-
-        //}
+       
         public void wiki1()
         {
             /*
@@ -162,37 +148,53 @@ namespace KdySeToStalo
         public void reset_btn()
         {
             // vrátí barvy buttonů zpátky do normálu
-            Event1Btn.BackgroundColor = Color.FromHex("#499f68");
-            Event2Btn.BackgroundColor = Color.FromHex("#499f68");
+            Event1Btn.BackgroundColor = Color.FromHex("#010001");
+            Event2Btn.BackgroundColor = Color.FromHex("#010001");
 
         }
         public void vypiš_datum()
         {
             if (ev1_rok < 0) // pokud se událost stala před Kristem (parametr objektu je záporné číslo), tak je číslo převedeno na kladné a přidáno "př. n. l."
             {
-                ev1_rok = -ev1_rok;
-                Event1Btn.Text = $"{ev1_rok.ToString()}" + " př. n. l.";
-                Event2Btn.Text = ev2_rok.ToString();
+                if (ev1_rok < 0 && ev2_rok < 0)
+                {
+                    ev1_rok = -ev1_rok;
+                    Event1Btn.Text += '\n' + $"{ev1_rok.ToString()}" + " př. n. l.";
+                    ev2_rok = -ev2_rok;
+                    Event2Btn.Text += '\n' + $"{ev2_rok.ToString()}" + " př. n. l.";
+                }
+                else
+                {
+                    ev1_rok = -ev1_rok;
+                    Event1Btn.Text += '\n' + $"{ev1_rok.ToString()}" + " př. n. l.";
+                    Event2Btn.Text += '\n' + ev2_rok.ToString();
+                }
+
             }
             else if (ev2_rok < 0)  // pokud se událost stala před Kristem (parametr objektu je záporné číslo), tak je číslo převedeno na kladné a přidáno "př. n. l."
             {
-                ev2_rok = -ev2_rok;
-                Event2Btn.Text = $"{ev2_rok.ToString()}" + " př. n. l.";
-                Event1Btn.Text = ev1_rok.ToString();
-            }
-            else if (ev1_rok < 0 && ev2_rok < 0)
-            {
-                ev1_rok = -ev1_rok;
-                Event1Btn.Text = $"{ev1_rok.ToString()}" + " př. n. l.";
-                ev2_rok = -ev2_rok;
-                Event2Btn.Text = $"{ev2_rok.ToString()}" + " př. n. l.";
+                if (ev1_rok < 0 && ev2_rok < 0)
+                {
+                    ev1_rok = -ev1_rok;
+                    Event1Btn.Text += '\n' + $"{ev1_rok.ToString()}" + " př. n. l.";
+                    ev2_rok = -ev2_rok;
+                    Event2Btn.Text += '\n' + $"{ev2_rok.ToString()}" + " př. n. l.";
+                }
+                else
+                {
+                    ev2_rok = -ev2_rok;
+                    Event2Btn.Text += '\n' + $"{ev2_rok.ToString()}" + " př. n. l.";
+                    Event1Btn.Text += '\n' + ev1_rok.ToString();
+                }
             }
             else
             {
-                Event1Btn.Text = ev1_rok.ToString();
-                Event2Btn.Text = ev2_rok.ToString();
+                Event1Btn.Text += '\n' + ev1_rok.ToString();
+                Event2Btn.Text += '\n' + ev2_rok.ToString();
             }
         }
+        
+              
         private void Event1Btn_Clicked(object sender, EventArgs e)
         {
             // porovná roky eventů na jednotlivých buttonech a podle toho zbarví button a inkrementuje příslušný label

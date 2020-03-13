@@ -8,7 +8,7 @@
              NavigationPage.HasNavigationBar="False"
              Visual="Material">
     <ContentPage.Resources>
-        <StyleSheet Source="css/dada.css">
+        <StyleSheet Source="css/styly.css">
 
         </StyleSheet>
     </ContentPage.Resources>
@@ -55,13 +55,17 @@
                     TextDecorations="Underline"
                
                ></Label>
-                <Button 
-                    x:Name="next_btn"
-                    Text="Další"
-                    Clicked="Next_button_Clicked"
-                    FontSize="20"
-                    StyleClass="BTN-menu"
-                     />
+                
+                    <Button 
+                        x:Name="next_btn"
+                        Text="Další"
+                        Clicked="Next_button_Clicked"
+                        FontSize="20"
+                        StyleClass="BTN-next"
+                        HorizontalOptions= "Fill"
+                        VerticalOptions="Fill"
+                         />
+                
             </FlexLayout>
         </ScrollView>
     </ContentPage.Content>

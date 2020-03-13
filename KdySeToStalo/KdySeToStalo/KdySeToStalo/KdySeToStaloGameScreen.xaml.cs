@@ -85,29 +85,14 @@ namespace KdySeToStalo
         }
         
 
-        //public void pridej_udalosti()
-        //{
-        //    udalosti_list.Add(new Události("Bitva u Hastings", 1066, 1, "https://cs.wikipedia.org/wiki/Bitva_u_Hastingsu"));
-        //    udalosti_list.Add(new Události("Upalení Jana Husa", 1415, 2, "https://cs.wikipedia.org/wiki/Jan_Hus"));
-        //    udalosti_list.Add(new Události("Začátek WWII", 1939, 3, "https://cs.wikipedia.org/wiki/Druh%C3%A1_sv%C4%9Btov%C3%A1_v%C3%A1lka"));
-        //    udalosti_list.Add(new Události("Vznik Francké říše", 486, 4, "https://cs.wikipedia.org/wiki/Fransk%C3%A1_%C5%99%C3%AD%C5%A1e"));
-        //    udalosti_list.Add(new Události("Rozdělení Římské říše", 330, 5, "https://cs.wikipedia.org/wiki/%C5%98%C3%ADmsk%C3%A1_%C5%99%C3%AD%C5%A1e#Rozd%C4%9Blen%C3%AD_%C5%99%C3%AD%C5%A1e_a_nastolen%C3%AD_k%C5%99es%C5%A5anstv%C3%AD"));
-        //    udalosti_list.Add(new Události("Vyplenění Říma Vandaly", 455, 6, "https://cs.wikipedia.org/wiki/Vyplen%C4%9Bn%C3%AD_%C5%98%C3%ADma_(455)"));
-        //    udalosti_list.Add(new Události("Zánik Západořímské říše", 476, 7, "https://cs.wikipedia.org/wiki/P%C3%A1d_Z%C3%A1pado%C5%99%C3%ADmsk%C3%A9_%C5%99%C3%AD%C5%A1e"));
-        //    udalosti_list.Add(new Události("Milánský edikt", 313, 8, "https://cs.wikipedia.org/wiki/Edikt_mil%C3%A1nsk%C3%BD"));
-        //    udalosti_list.Add(new Události("Velké schizma", 1054, 9, "https://cs.wikipedia.org/wiki/Velk%C3%A9_schizma"));
-        //    udalosti_list.Add(new Události("První křížová výprava", 1095, 10, "https://cs.wikipedia.org/wiki/Prvn%C3%AD_k%C5%99%C3%AD%C5%BEov%C3%A1_v%C3%BDprava"));
-        //    udalosti_list.Add(new Události("Zánik Kartága", -146, 11, "https://cs.wikipedia.org/wiki/Kart%C3%A1go"));
-
-            
-        //}
+        
         public Random randy = new Random();
         public List<Události> udalosti_list = new List<Události>();
         int udalost_rok;
         int random_index;
         public void Reset()
         {
-            OdpovedBtn.BackgroundColor = Color.FromHex("#b4654a");
+            OdpovedBtn.BackgroundColor = Color.FromHex("#010001");
             EntryRok.Text = "";
         }
         public void TestGame() // hlavní metoda

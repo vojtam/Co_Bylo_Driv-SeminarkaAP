@@ -90,9 +90,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\KdySeToStalo\KdySeToStalo.csproj">
       <Project>{97CF3AAA-86BE-42F8-9FAC-F44107F125C6}</Project>
@@ -101,6 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\udalosti_nazev.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

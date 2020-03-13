@@ -7,7 +7,7 @@
              x:Class="KdySeToStalo.KdySeToStaloGameScreen"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Resources>
-        <StyleSheet Source="css/dada.css">
+        <StyleSheet Source="css/styly.css">
 
         </StyleSheet>
     </ContentPage.Resources>

@@ -8,7 +8,7 @@
              NavigationPage.HasNavigationBar="False"
              Visual="Material">
     <ContentPage.Resources>
-        <StyleSheet Source="css/dada.css">
+        <StyleSheet Source="css/styly.css">
 
         </StyleSheet>
     </ContentPage.Resources>

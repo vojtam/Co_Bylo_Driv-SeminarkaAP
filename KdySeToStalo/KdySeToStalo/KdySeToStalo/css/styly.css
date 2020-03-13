@@ -1,0 +1,66 @@
+﻿^ContentPage {
+    background-color: #2b0504;
+}
+
+#container {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10 0;
+}
+
+.header {
+    font-size: 56;
+    text-align: center;
+    color: white;
+}
+
+.header_secondary {
+    font-size: 18;
+    text-align: center;
+    color: white;
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: thick;
+}
+
+#GameHeader {
+    font-size: 32;
+    text-align: center;
+    color: white;
+}
+
+.BTN-menu {
+    color: white;
+    font-size: 18;
+    background-color: #874000;
+    padding: 20 25;
+    border: dotted 2 black;
+    border-radius: 20;
+}
+.BTN-next {
+    color: white;
+    font-size: 18;
+    background-color: #874000;
+    width: 200;
+    height: 80;
+    border-radius: 20;
+    border: dotted 2 black;
+}
+
+.BTN-game {
+    color: white;
+    font-size: 18;
+    min-width: 200;
+    min-height: 75;
+    max-width: 350;
+    max-height: 200;
+    width: 300;
+    height: 155;
+    /*background-color: #499f68;*/
+    background-color: #010001;
+    border: dotted 2 black;
+    border-radius: 20;
+}
