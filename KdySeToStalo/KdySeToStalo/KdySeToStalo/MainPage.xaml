@@ -30,7 +30,7 @@
                     <Label
                             x:Name="Label_Header_Secondary"
                             StyleClass="header_secondary"
-                            Text="Hra, která procvičí Vaše znalosti dějepisu">
+                            Text="Hra, která prověří Vaše znalosti dějepisu">
                     </Label>
                 </StackLayout>
 

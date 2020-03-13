@@ -58,6 +58,7 @@
                     Text="Pokračovat"
                     Clicked="PokracovatBtnClick"
                     StyleClass="BTN-menu"></Button>
+                
             </FlexLayout>
         </ScrollView>
     </ContentPage.Content>
