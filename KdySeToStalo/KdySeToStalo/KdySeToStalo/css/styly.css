@@ -11,6 +11,14 @@
     margin: 10 0;
 }
 
+.BTN-menu {
+    color: white;
+    font-size: 18;
+    background-color: #874000;
+    padding: 20 25;
+    margin: 30 10;
+    border-radius: 20;
+}
 .header {
     font-size: 56;
     text-align: center;
@@ -32,14 +40,7 @@
     color: white;
 }
 
-.BTN-menu {
-    color: white;
-    font-size: 18;
-    background-color: #874000;
-    padding: 20 25;
-    border: dotted 2 black;
-    border-radius: 20;
-}
+
 .BTN-next {
     color: white;
     font-size: 18;

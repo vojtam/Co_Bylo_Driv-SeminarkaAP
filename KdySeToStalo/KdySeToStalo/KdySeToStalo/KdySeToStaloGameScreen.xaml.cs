@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using System.IO;
 using Xamarin.Forms.Xaml;
@@ -18,7 +17,7 @@ namespace KdySeToStalo
         public KdySeToStaloGameScreen()
         {
             InitializeComponent();
-            TestGame();
+            KdySeToStaloGame();
           
         }
         public void načti_ze_souborů()
@@ -77,8 +76,8 @@ namespace KdySeToStalo
 
             }
             
-            var udalosti_letopočty_arr = udalosti_letopočty_list.ToArray();
-            for(int i = 0; i < udalosti_letopočty_arr.Length; i++)
+            var počet_událostí = udalosti_letopočty_list.ToArray().Length;
+            for(int i = 0; i < počet_událostí; i++)
             {
                 udalosti_list.Add(new Události(udalosti_nazev_list[i], udalosti_letopočty_list[i], i, udalosti_wiki_list[i])); // přídá do listu událostí objekty s parametry
             }
@@ -114,7 +113,7 @@ namespace KdySeToStalo
 
             label_wiki.Text = "Odkaz na Wikipedii";
         }
-        public void TestGame() // hlavní metoda
+        public void KdySeToStaloGame() // hlavní metoda
         {
             načti_ze_souborů();
             random_index = randy.Next(udalosti_list.ToArray().Length); // vybere náhodný index události z listu objektů
@@ -175,7 +174,7 @@ namespace KdySeToStalo
         {
             Reset();
             label_wiki.IsVisible = false;
-            TestGame();
+            KdySeToStaloGame    ();
             EntryRok.Focus();
         }
 

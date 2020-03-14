@@ -19,29 +19,21 @@
                     x:Name="Label_Header_Main"
                     StyleClass="header"
                     Text="Vyber typ hry">
-                    <!--<Label.FontFamily>
-                        <OnPlatform x:TypeArguments="x:String">
-
-                            <On Platform="Android">Carta_Magna-line-demo-FFP.ttf#Magna Carta</On>
-                        </OnPlatform>
-                    </Label.FontFamily>-->
-
                 </Label>
-                <Button
-                    x:Name="CompareGameStartBtn"
-                    Text="Dřívější událost"
-                    StyleClass="BTN-menu"
-                    Clicked="CompareGameStartBtn_Clicked"
-                    
-                    
-                    ></Button>
-                <Button
-                    x:Name="WriteGameStartBtn"
-                    Text="Kdy se to stalo?"
-                    StyleClass="BTN-menu"
-                    Clicked="KdySeToStaloStartBtn_Clicked"
-                    
-                    ></Button>
+                <StackLayout>
+                    <Button
+                        x:Name="CompareGameStartBtn"
+                        Text="Dřívější událost"
+                        StyleClass="BTN-menu"
+                        Clicked="CompareGameStartBtn_Clicked">
+                    </Button>
+                    <Button
+                        x:Name="WriteGameStartBtn"
+                        Text="Kdy se to stalo?"
+                        StyleClass="BTN-menu"
+                        Clicked="KdySeToStaloStartBtn_Clicked">
+                        </Button>
+                </StackLayout>
             </FlexLayout>
         </ScrollView>
     </ContentPage.Content>

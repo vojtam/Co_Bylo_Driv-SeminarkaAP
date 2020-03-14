@@ -20,7 +20,6 @@ namespace KdySeToStalo
             InitializeComponent();
             game();
 
-            
         }
         
         public Random randy = new Random();
@@ -44,9 +43,8 @@ namespace KdySeToStalo
                 {
                     udalosti_nazev_list.Add(vyslednyText[i]);
                 }
-
             }
-
+        
             #endregion
             #region načtení ze souboru letopočtů
             var assemblyRoky = IntrospectionExtensions.GetTypeInfo(typeof(NačtiLetopočty)).Assembly;
@@ -84,8 +82,9 @@ namespace KdySeToStalo
 
             }
 
-            var udalosti_letopočty_arr = udalosti_letopočty_list.ToArray();
-            for (int i = 0; i < udalosti_letopočty_arr.Length; i++)
+            int počet_událostí = udalosti_letopočty_list.ToArray().Length;
+
+            for (int i = 0; i < počet_událostí; i++)
             {
                 udalosti_list.Add(new Události(udalosti_nazev_list[i], udalosti_letopočty_list[i], i, udalosti_wiki_list[i])); // přídá do listu událostí objekty s parametry
             }
@@ -132,7 +131,6 @@ namespace KdySeToStalo
         public void game()
         {
             načti_ze_souborů(); // spustí metodu, která načte data ze souborů a vytvoří příslušné objekty
-
             random_index1 = randy.Next(udalosti_list.ToArray().Length); // vybere první náhodnou událost 
             Event1Btn.Text = udalosti_list[random_index1].Název; // do buttonu vloží název první události
             ev1_rok = udalosti_list[random_index1].Datum; // vezme si datum první události a uloží do proměnné
@@ -141,16 +139,18 @@ namespace KdySeToStalo
             ev2_rok = udalosti_list[random_index2].Datum; // vezme si datum druhé události a uloží do proměnné
             if (Event1Btn.Text == Event2Btn.Text)
             {
-                game(); // pokud se data obou událostí rovnají, tak spustí metodu znova
+                game(); // pokud se názvy obou událostí rovnají, tak spustí metodu znova
             }
-
+            else if (ev1_rok == ev2_rok)
+            {
+                game(); // pokud se události staly ve stejný rok, tak spustí metodu znova
+            }
         }
         public void reset_btn()
         {
             // vrátí barvy buttonů zpátky do normálu
             Event1Btn.BackgroundColor = Color.FromHex("#010001");
             Event2Btn.BackgroundColor = Color.FromHex("#010001");
-
         }
         public void vypiš_datum()
         {
@@ -197,13 +197,12 @@ namespace KdySeToStalo
               
         private void Event1Btn_Clicked(object sender, EventArgs e)
         {
-            // porovná roky eventů na jednotlivých buttonech a podle toho zbarví button a inkrementuje příslušný label
+            // porovná roky eventů na jednotlivých buttonech a podle toho zbarví button
             if (ev1_rok < ev2_rok)
             {
                 Event1Btn.BackgroundColor = Color.Green;
                 Event2Btn.BackgroundColor = Color.Red;
-                pocet_dobre++;
-                vypiš_datum();
+                vypiš_datum(); // zkontroluje, jestli je datum před nebo po našem letopočtu a zobrazí do Buttonu správný text
                 wiki1(); // spustí metodu, která vytvoří label s odkazem na wiki
                 wiki2(); // spustí metodu, která vytvoří label s odkazem na wiki
                 label_wiki1.IsVisible = true; // zobrazí label s odkazem na wiki
@@ -215,8 +214,7 @@ namespace KdySeToStalo
 
                 Event1Btn.BackgroundColor = Color.Red;
                 Event2Btn.BackgroundColor = Color.Green;
-                pocet_spatne++;
-                vypiš_datum();
+                vypiš_datum(); // zkontroluje, jestli je datum před nebo po našem letopočtu a zobrazí do Buttonu správný text
                 wiki1(); // spustí metodu, která vytvoří label s odkazem na wiki
                 wiki2(); // spustí metodu, která vytvoří label s odkazem na wiki
                 label_wiki1.IsVisible = true; // zobrazí label s odkazem na wiki
@@ -226,13 +224,12 @@ namespace KdySeToStalo
         }
         private void Event2Btn_Clicked(object sender, EventArgs e)
         {
-            // porovná roky eventů na jednotlivých buttonech a podle toho zbarví button a inkrementuje příslušný label
+            // porovná roky eventů na jednotlivých buttonech a podle toho zbarví button
             if (ev1_rok > ev2_rok)
             {
-                pocet_dobre++;
                 Event2Btn.BackgroundColor = Color.Green;
                 Event1Btn.BackgroundColor = Color.Red;
-                vypiš_datum();
+                vypiš_datum(); // zkontroluje, jestli je datum před nebo po našem letopočtu a zobrazí do Buttonu správný text
                 wiki1();
                 wiki2();
                 label_wiki2.IsVisible = true;
@@ -240,11 +237,9 @@ namespace KdySeToStalo
             }
             else if (ev2_rok > ev1_rok)
             {
-                pocet_spatne++;
                 Event2Btn.BackgroundColor = Color.Red;
                 Event1Btn.BackgroundColor = Color.Green;
-                vypiš_datum();
-
+                vypiš_datum(); // zkontroluje, jestli je datum před nebo po našem letopočtu a zobrazí do Buttonu správný text
                 wiki1();
                 wiki2();
                 label_wiki2.IsVisible = true;

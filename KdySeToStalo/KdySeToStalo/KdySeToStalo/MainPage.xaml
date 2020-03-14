@@ -17,15 +17,11 @@
         <ScrollView>
 
             <FlexLayout x:Name="container">
-
-
                 <StackLayout>
                     <Label 
                             x:Name="Label_Header_Main"
                             StyleClass="header"
                             Text="Kdy Se To Stalo?">
-
-
                     </Label>
                     <Label
                             x:Name="Label_Header_Secondary"
@@ -34,13 +30,12 @@
                     </Label>
                 </StackLayout>
 
-
                 <Button
                              x:Name="MainGameStartBtn"
                              Text="Nová hra"
                              StyleClass="BTN-menu"
-                             Clicked="MainGameStartBtn_ClickedAsync"
-                         ></Button>
+                             Clicked="MainGameStartBtn_ClickedAsync">
+                </Button>
             </FlexLayout>
 
         </ScrollView>
