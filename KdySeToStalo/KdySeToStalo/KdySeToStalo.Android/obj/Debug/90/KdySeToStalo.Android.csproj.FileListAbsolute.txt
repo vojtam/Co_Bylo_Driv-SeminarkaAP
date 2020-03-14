@@ -54,15 +54,10 @@ C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Andro
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-hdpi\icon.png
-C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-hdpi\launcher_foreground.png
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-mdpi\icon.png
-C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-mdpi\launcher_foreground.png
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-xhdpi\icon.png
-C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-xhdpi\launcher_foreground.png
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-xxhdpi\icon.png
-C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
-C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\uploadflags.txt
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\resolvedassemblies.hash
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
@@ -494,3 +489,4 @@ C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Andro
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialStepperRenderer.java
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialTimePickerRenderer.java
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
+C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\drawable\icon.png

@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using System.IO;
 using Xamarin.Forms.Xaml;
 using System.Reflection;
+using Xamarin.Essentials;
 
 namespace KdySeToStalo
 {
@@ -95,6 +96,24 @@ namespace KdySeToStalo
             OdpovedBtn.BackgroundColor = Color.FromHex("#010001");
             EntryRok.Text = "";
         }
+        public void wiki()
+        {
+            /*
+             vytvoří nový label, který si vezme adresu z příslušného objektu a vytvoří link
+             */
+            var adresa = udalosti_list[random_index].Wiki; // vezme adresu na wiki a uloží ji do proměnné
+            label_wiki.FontSize = 16;
+
+
+            var tapGestureRecognizer = new TapGestureRecognizer();
+
+            tapGestureRecognizer.Tapped += (s, e) => {                  // zajistí, že se na Label dá kliknout a zobrazit odkaz
+                Launcher.OpenAsync(new Uri((adresa as String)));
+            };
+            label_wiki.GestureRecognizers.Add(tapGestureRecognizer);
+
+            label_wiki.Text = "Odkaz na Wikipedii";
+        }
         public void TestGame() // hlavní metoda
         {
             načti_ze_souborů();
@@ -140,7 +159,8 @@ namespace KdySeToStalo
                     GameHeader.Text = "Prosím zadej rok";
                 }
             }
-
+            label_wiki.IsVisible = true;
+            wiki();
         }
         protected override void OnAppearing() // zajistí, aby se po spuštění aktivity automaticky spustila klávesnice a dalo se psát do pole
         {
@@ -154,6 +174,7 @@ namespace KdySeToStalo
         private void PokracovatBtnClick(object sender, EventArgs e)
         {
             Reset();
+            label_wiki.IsVisible = false;
             TestGame();
             EntryRok.Focus();
         }

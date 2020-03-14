@@ -53,6 +53,15 @@
                    Text="TEXT">
 
                 </Label>
+                <Label
+                    x:Name="label_wiki"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="LightBlue"
+                    FontSize="16"
+                    TextDecorations="Underline"
+               
+               ></Label>
                 <Button 
                     x:Name="PokracovatBtn"
                     Text="Pokračovat"
