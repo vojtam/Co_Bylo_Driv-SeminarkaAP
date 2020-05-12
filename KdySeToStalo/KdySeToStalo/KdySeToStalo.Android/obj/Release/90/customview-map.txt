@@ -23,6 +23,7 @@ color;obj\Release\90\res\values\colors.xml
 corners;C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Release\90\lp\39\jl\res\drawable\materialprogressbar.xml
 external-cache-path;C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Release\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Release\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Release\90\lp\40\jl\res\layout\bottomtablayout.xml
 item;C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Release\90\lp\39\jl\res\drawable\materialprogressbar.xml
 item;C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Release\90\lp\39\jl\res\values\styles.xml

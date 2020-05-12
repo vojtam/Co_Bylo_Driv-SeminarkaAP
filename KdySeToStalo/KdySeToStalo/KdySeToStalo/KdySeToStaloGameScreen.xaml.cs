@@ -127,7 +127,6 @@ namespace KdySeToStalo
         {
             try
             {
-
                 int odpoved_rok = Convert.ToInt32(EntryRok.Text);
                 if (odpoved_rok == udalosti_list[random_index].Datum)
                 {
@@ -137,7 +136,6 @@ namespace KdySeToStalo
                 else
                 {
                     OdpovedBtn.BackgroundColor = Color.Red;
-                    
                     SpravnaOdpovedLabel.Opacity = 1;
                     PokracovatBtn.Opacity = 1;
                     if(udalosti_list[random_index].Datum < 0)

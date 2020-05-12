@@ -18,9 +18,16 @@
 
                 <Label 
                     x:Name="Label_Header_Main"
-                    StyleClass="header"
+                    StyleClass="header-game"
                     Text="Která událost se stala dřív?"          
                        >
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+
+                            <On Platform="Android" Value="hilds.ttf#Hilda Sonnenschein" />
+
+                        </OnPlatform>
+                    </Label.FontFamily>
 
                 </Label>
                 <Button

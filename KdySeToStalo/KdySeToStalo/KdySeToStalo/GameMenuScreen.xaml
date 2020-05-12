@@ -19,6 +19,13 @@
                     x:Name="Label_Header_Main"
                     StyleClass="header"
                     Text="Vyber typ hry">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+
+                            <On Platform="Android" Value="hilds.ttf#Hilda Sonnenschein" />
+
+                        </OnPlatform>
+                    </Label.FontFamily>
                 </Label>
                 <StackLayout>
                     <Button
@@ -31,8 +38,9 @@
                         x:Name="WriteGameStartBtn"
                         Text="Kdy se to stalo?"
                         StyleClass="BTN-menu"
-                        Clicked="KdySeToStaloStartBtn_Clicked">
-                        </Button>
+                        Clicked="KdySeToStaloStartBtn_Clicked"
+                        >
+                    </Button>
                 </StackLayout>
             </FlexLayout>
         </ScrollView>

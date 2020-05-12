@@ -488,5 +488,15 @@ C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Andro
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialSliderRenderer.java
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialStepperRenderer.java
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\android\src\crc647c4c06b10f3352ff\MaterialTimePickerRenderer.java
-C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
 C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res\drawable\icon.png
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\build.props
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\adb.props
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\KdySeToStalo.Android.csprojAssemblyReference.cache
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\resourcepaths.cache
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\resourcecache.stamp
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\res.flag
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\KdySeToStalo.Android.dll
+C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo.Android\obj\Debug\90\KdySeToStalo.Android.pdb

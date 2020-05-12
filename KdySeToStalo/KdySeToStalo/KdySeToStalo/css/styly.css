@@ -13,14 +13,19 @@
 
 .BTN-menu {
     color: white;
-    font-size: 18;
+    font-size: 20;
     background-color: #874000;
     padding: 20 25;
     margin: 30 10;
     border-radius: 20;
 }
 .header {
-    font-size: 56;
+    font-size: 100;
+    text-align: center;
+    color: white;
+}
+.header-game {
+    font-size: 70;
     text-align: center;
     color: white;
 }
@@ -35,7 +40,7 @@
 }
 
 #GameHeader {
-    font-size: 32;
+    font-size: 60;
     text-align: center;
     color: white;
 }
@@ -48,7 +53,8 @@
     width: 200;
     height: 80;
     border-radius: 20;
-    border: dotted 2 black;
+
+
 }
 
 .BTN-game {

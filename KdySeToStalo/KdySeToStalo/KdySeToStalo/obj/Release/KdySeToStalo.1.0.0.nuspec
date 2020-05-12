@@ -10,6 +10,7 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
+        <dependency id="FontAwesome" version="4.7.0" exclude="Build,Analyzers" />
         <dependency id="MaterialDesignThemes" version="3.0.1" exclude="Build,Analyzers" />
         <dependency id="Xamarin.Essentials" version="1.3.1" exclude="Build,Analyzers" />
         <dependency id="Xamarin.Forms" version="4.3.0.908675" exclude="Build,Analyzers" />
@@ -18,7 +19,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\macal\Desktop\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Release\netstandard2.0\KdySeToStalo.dll" target="lib\netstandard2.0\KdySeToStalo.dll" />
-    <file src="C:\Users\macal\Desktop\icons8-sand-timer-48.png" target="icons8-sand-timer-48.png" />
+    <file src="C:\Users\macal\Desktop\škola\seminarkaAP\KdySeToStalo\KdySeToStalo\KdySeToStalo\KdySeToStalo\bin\Release\netstandard2.0\KdySeToStalo.dll" target="lib\netstandard2.0\KdySeToStalo.dll" />
+    <file src="C:\Users\macal\Desktop\škola\seminarkaAP\icons8-sand-timer-48.png" target="icons8-sand-timer-48.png" />
   </files>
 </package>

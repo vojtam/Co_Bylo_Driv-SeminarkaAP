@@ -22,6 +22,11 @@
                             x:Name="Label_Header_Main"
                             StyleClass="header"
                             Text="Kdy Se To Stalo?">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String">
+                                <On Platform="Android" Value="hilds.ttf#Hilda Sonnenschein" />
+                            </OnPlatform>
+                        </Label.FontFamily>
                     </Label>
                     <Label
                             x:Name="Label_Header_Secondary"
@@ -29,7 +34,6 @@
                             Text="Hra, která prověří Vaše znalosti dějepisu">
                     </Label>
                 </StackLayout>
-
                 <Button
                              x:Name="MainGameStartBtn"
                              Text="Nová hra"
@@ -40,5 +44,4 @@
 
         </ScrollView>
     </ContentPage.Content>
-
 </ContentPage>
